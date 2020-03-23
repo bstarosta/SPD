@@ -202,8 +202,8 @@ int Planista::wypisz()
 {
 	int c = wylicz_cmax(kolejnosc_optymalna);
 	for (int i = 0; i < n; ++i)
-		std::cout << kolejnosc_optymalna[i].getNumer() << std::endl;
-	std::cout<< "Czas wykonania zadan to " << c << "\n"<<"\n";
+		std::cout << kolejnosc_optymalna[i].getNumer() << " ";
+	std::cout<<"\n"<< "Czas wykonania zadan to " << c << "\n"<<"\n";
 	return c;
 }
 
